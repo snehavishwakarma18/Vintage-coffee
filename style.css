@@ -1370,6 +1370,13 @@ body {
     .menu-card img {
         width: 100%;
         height: 220px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .menu-card:nth-child(5) img,
+    .menu-card:nth-child(6) img {
+        object-position: top;
     }
 
     .menu-info {
@@ -1468,7 +1475,6 @@ body {
         line-height: 1.6;
     }
 
-    /* CONTACT PAGE (Card thoda bada, center mein aur readable fonts) */
     .contact-section {
         width: 92%;
         margin: auto;
